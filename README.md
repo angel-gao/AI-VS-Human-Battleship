@@ -5,7 +5,7 @@
 
 ## Introduction
 
-**AI VS Human Battleship Game** AI vs. Human Battleship is an interactive game developed using Java and JavaFX, offering a graphical user interface for engaging battleship gameplay. Players can challenge an artificial intelligence in a classic battle of naval strategy.
+**AI VS Human Battleship Game** AI vs. Human Battleship is an interactive game developed using Java and JavaFX, offering a graphical user interface for engaging battleship gameplay. Players can challenge an artificial intelligence in a classic battle of naval strategy. For the rules to play the game, please reference to [Link Text]([URL](https://www.hasbro.com/common/instruct/battleship.pdf))
 
 ## Features
 
