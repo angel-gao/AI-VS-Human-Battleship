@@ -1,0 +1,61 @@
+//This css file is used to program the visual effects and styles of the game to achieve better user experience
+
+//general style of all Labels in the program
+.label{
+-fx-text-fill: #de8500;
+-fx-font-weight: bold;
+-fx-font-family: "Verdana";
+-fx-font-size: 20;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 3, 0, 0, 2);
+-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 2, 0, 0, 2);
+}
+
+//specific style of Labels on the rightPane of game play screen (any code in this bracket will overwrite code in .label if exists)
+.label-rightPane{
+-fx-text-fill: #db5202;
+-fx-font-size: 15;
+}
+
+//specific style of Labels for big Text in game play screen
+.label-bigText{
+-fx-text-fill: #f7d000;
+-fx-font-size: 30;
+}
+
+//specific style of Labels for row # and column # labelled around grids
+.label-rowColNum{
+-fx-text-fill: #bf0000;
+-fx-font-size: 18;
+}
+
+//general style of all Buttons in program
+.button{
+-fx-background-color:
+    rgba(0,0,0,0.08),
+    linear-gradient(#5a61af, #51536d),
+    linear-gradient(#e4fbff 0%,#cee6fb 10%, #a5d3fb 50%, #88c6fb 51%, #d5faff 100%);
+-fx-background-insets: 0 0 -1 0,0,1;
+-fx-background-radius: 5,5,4;
+-fx-text-fill: #242d35;
+}
+
+//color effect of buttons when being hovered
+.button:hover {
+-fx-background-color:
+    rgba(0,0,0,0.08),
+    linear-gradient(#5a61af, #51536d),
+    linear-gradient(#f5fdff 0%,#def0ff 10%, #bedefa 50%, #b1d9fc 51%, #e8fcff 100%);
+}
+
+//color effect of buttons when being hovered
+.button:pressed {
+-fx-background-color:
+    rgba(0,0,0,0.08),
+    linear-gradient(#5a61af, #51536d),
+    linear-gradient(#dce4e6 0%,#c8d8e6 10%, #aecce6 50%, #a1c5e6 51%, #d1e3e6 100%);
+}
+
+//size of button when in game play scene
+.button-inGame{
+-fx-font-size: 15;
+}

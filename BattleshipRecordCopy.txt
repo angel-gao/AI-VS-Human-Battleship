@@ -1,0 +1,62 @@
+myTurn: true
+level: hard
+gameEnd: false
+timerCount: 47
+timerMinCount: 1
+userScore: 0
+compScore: 0
+whoTurnOutput: User's Turn
+statusOutput: -- COMPUTER MISS AT ROW 'E' COLUMN '5' --
+sunkOutput: 
+Left Board: 
+  1 2 3 4 5 6 7 8 9 10 
+A - - - - - - - - - - 
+B - - - - - - - - - - 
+C - - o - - - - - - - 
+D - - - - - - - - - - 
+E - - - - - - - - - - 
+F - - - - - - - - - - 
+G - - - - - - - - - - 
+H - - - - - - - - - - 
+I - - - - - - - - - - 
+J - - - - - - - - - - 
+  1 2 3 4 5 6 7 8 9 10 
+A B B B B - - - - - - 
+B - - - - - - - - - - 
+C - - - - - - - - - - 
+D - - - - - - - - - - 
+E - - - S S S - - - R 
+F A - - - - - - - - R 
+G A - - - - - - - - R 
+H A - - - - - - - - - 
+I A - D D - - - - - - 
+J A - - - - - - - - - 
+Computer Ship directions: 1 0 1 0 0
+Right Board: 
+  1 2 3 4 5 6 7 8 9 10 
+A - - - - - - - - - - 
+B - - - - - - - - - - 
+C - - - - - - - - - - 
+D - - - - - - - - - - 
+E - - - - o - - - - - 
+F - - - - - - - - - - 
+G - - - - - - - - - - 
+H - - - - - - - - - - 
+I - - - - - - - - - - 
+J - - - - - - - - - - 
+  1 2 3 4 5 6 7 8 9 10 
+A - - - - - - - - - - 
+B - - - - - - - - - - 
+C - - - - - - - - - - 
+D - - - - - - - - - - 
+E - - - - - - - - - - 
+F - - - - - - - - - - 
+G - - - - - - - - - - 
+H - - - - - - - - - - 
+I - - - - - - - - - - 
+J - - - - - - - - - - 
+User's ship life: 5 4 3 3 2
+Computer's ship life: 5 4 3 3 2
+User ships' totalHits: 0
+Computer ships' totalHits: 0
+evenParity: true

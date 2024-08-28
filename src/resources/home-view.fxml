@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.demo1.HomeScreenController">
+   <children>
+      <ImageView fitHeight="423.0" fitWidth="641.0" layoutX="-21.0" layoutY="-1.0" opacity="0.9" pickOnBounds="true" preserveRatio="true" smooth="false">
+         <image>
+            <Image url="@image2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="107.0" fitWidth="397.0" layoutX="101.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@battle.png" />
+         </image>
+         <effect>
+            <ColorAdjust contrast="1.0" hue="0.1" saturation="1.0" />
+         </effect>
+      </ImageView>
+      <Button layoutX="227.0" layoutY="317.0" mnemonicParsing="false" onAction="#switchToSelectionScene" text="New Game">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="43.0" layoutY="318.0" mnemonicParsing="false" onAction="#switchToInstructionScene" text="How to Play">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="400.0" layoutY="317.0" mnemonicParsing="false" onAction="#resumeGame" text="Resume Game">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

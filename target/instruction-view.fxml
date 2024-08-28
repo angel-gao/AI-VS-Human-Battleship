@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.demo1.HomeScreenController">
+   <children>
+      <ImageView fitHeight="418.0" fitWidth="613.0" layoutX="-7.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="312.0" layoutX="144.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@howtoplay.png" />
+         </image>
+         <effect>
+            <ColorAdjust contrast="1.0" hue="-0.48" saturation="1.0" />
+         </effect>
+      </ImageView>
+      <TextArea editable="false" layoutX="7.0" layoutY="58.0" prefHeight="298.0" prefWidth="590.0" text="1. Setup your own placements of Carrier (length 5), Battleship (length 4), Submarine (length 3), Cruiser (length 3) and Destroyer (length 5) on a 10x10 board.&#10;&#10;2. Start the game and select level of computer (easy or hard), and select who goes first (user or computer). Depending on different levels, computer will perform different strategies in guessing targets. &#10;&#10;3. Left board is computer's ships setup where user need to take guesses and right board represents user's ships setup where computer take guesses&#10;&#10;4. User will click on one cell of left grid to select target, and computer will output its guess on right pane of scene for each turn. &#10;&#10;5. After computer makes the guess, user should input current status of the target (miss, hit or sunk) and the name of ship being hit or sunk (if miss, leave the text box blank) to the text boxes on the right pane according to user's setup of ships. &#10;&#10;6. Blue cell indicates miss, red cell indicates hit and black cell indicates sunk&#10;&#10;7. Timer and Score will be recorded to track game progress. &#10;&#10;8. &quot;Return Home&quot; button and &quot;Save progress&quot; button on top left corner of the stage allow user to start a new game or save the current game at anytime. &#10;&#10;9. Player cannot save game progress when game is already over, and cannot resume game when there isn't any record files. &#10;&#10;10. Player who sunk all opponent's ships win the game!" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
+      <Button layoutX="433.0" layoutY="365.0" mnemonicParsing="false" onAction="#returnToHomeScreen" text="Return to Home Screen" />
+   </children>
+</AnchorPane>
