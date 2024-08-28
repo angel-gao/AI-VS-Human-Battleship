@@ -1,8 +1,14 @@
 # AI VS Human Battleship Game
 
 ## Game Playground Images
-![Image 1](https://github.com/angel-gao/AI-VS-Human-Battleship/blob/main/readme_images/Picture1.png) ![Image 2](https://github.com/angel-gao/AI-VS-Human-Battleship/blob/main/readme_images/Picture2.png)
-![Image 3](https://github.com/angel-gao/AI-VS-Human-Battleship/blob/main/readme_images/Picture3.png) ![Image 4](https://github.com/angel-gao/AI-VS-Human-Battleship/blob/main/readme_images/Picture4.png)
+<p align="center">
+  <img src="https://github.com/angel-gao/AI-VS-Human-Battleship/blob/main/readme_images/Picture1.png" alt="Image 1" width="200" height="200"/>
+  <img src="https://github.com/angel-gao/AI-VS-Human-Battleship/blob/main/readme_images/Picture2.png" alt="Image 2" width="200" height="200"/>
+</p>
+<p align="center">
+  <img src="https://github.com/angel-gao/AI-VS-Human-Battleship/blob/main/readme_images/Picture3.png" alt="Image 3" width="200" height="200"/>
+  <img src="https://github.com/angel-gao/AI-VS-Human-Battleship/blob/main/readme_images/Picture4.png" alt="Image 4" width="200" height="200"/>
+</p>
 
 
 ## Introduction
