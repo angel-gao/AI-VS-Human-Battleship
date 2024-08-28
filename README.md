@@ -20,6 +20,6 @@
 
 
 ## Usage
-It would be a bit difficult to setup the game in local machine as I used the IntelliJ build-in module environment setup to install javaFX model and setting src\java\main_files\Battleship.java as main file. One could see the sample playing video in **Gaming** Folder
+It would be a bit difficult to setup the game in local machine as I used the IntelliJ build-in module environment setup to install javaFX model and setting src\java\main_files\Battleship.java as main file. One could see the sample playing video by downloading .mov in **Gaming** Folder
 
 
