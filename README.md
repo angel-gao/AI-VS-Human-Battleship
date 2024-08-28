@@ -14,36 +14,12 @@
 
 
 ## File Descriptions
-- **config.py**: setup the configurations and type of transformations for data-preprocessing for entire training
-- **dataset.py & dataset_multi.py** customized datasets for loading multi images simultaneously
-- **discriminator.py**: discriminator model class
-- **generator.py**: generator model class
-- **metric_evaluation**: evaluate the L1, L2 distance and SSIM based on images generated saved in Final_Generation folder with input test sketches
-- **utils.py**: some helper functions for image saving and model loading
+- src\java\main_files contains all java files utilized the OOP framework which establish aa comprehensive class hierarchy for integrating both coding logic and game interface development components
+- src\java\resources contains all images, .fxml and css files for GUI
+- target folder saved the pre-compiled java files in .class format
+
 
 ## Usage
-
-To get started with Line2Live, follow these steps to set up the project on your local machine.
-
-```bash
-# Clone the repository
-git clone https://github.com/angel-gao/Line2Live.git
-
-# Install dependencies
-conda env create -f environment.yml
-```
-
-To run the baseline model: 
-```bash
-#Remember to setup the desired configurations and correct dataset directory
-python train_base.py
-```
-
-To run the project model: 
-```bash
-#Remember to setup the desired configurations and correct dataset directory
-python train_triple.py
-```
-
+It would be a bit difficult to setup the game in local machine as I used the IntelliJ build-in module environment setup to install javaFX model and setting src\java\main_files\Battleship.java as main file. One could see the sample playing video in **Gaming** Folder
 
 
